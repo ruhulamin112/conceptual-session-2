@@ -1,0 +1,155 @@
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Lato', sans-serif;
+}
+
+
+nav{
+    background-color: #9376e0;
+}
+
+.nav-container{
+
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+  
+}
+
+.logo-container{
+
+display: flex;
+width: 50%;
+}
+
+.logo-container img{
+    width: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 30px;
+}
+.hive-secton{
+color: #e893cf;
+
+}
+.nav-items-container{
+width: 50%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-items-container .login-btn{
+
+    background-color: #e893cf;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    
+}
+
+
+
+/* bannner section start hear */
+
+.bannar-container{
+  
+    max-width: 1140px;
+    margin: 50px auto 0; 
+    min-height: 50px;
+    display: flex;
+    background-color: #e6e9eb;
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+
+.banner-text{
+width: 50%;
+text-align: center;
+}
+
+.banner-text h1{
+    background-image: linear-gradient(to  bottom, #9376e0, #e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+
+.banner-text p{
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.fa-brands{
+    font-size: 50px;
+}
+
+.banner-buttons{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid #9376e0 ;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    
+}
+
+
+.icons-container{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto 40px;
+}
+
+
+
+.banner-img{
+    width: 50%;
+
+}
+
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* bannner section end hear */
