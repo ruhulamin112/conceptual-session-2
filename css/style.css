@@ -195,21 +195,126 @@ justify-content: space-between;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* product section end hear */
+
+
+/* discount section start hear */
+
+
+.discount-section{
+    background-color: #9376e0;
+    min-height: 500px;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+
+.discount-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+.discount-img{
+    width: 50%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.discount-img img {
+    width: 70%;
+    height: 100%;
+
+}
+
+.discount-namebar{
+    background-color: rgb(185, 185, 18);
+    height: 90px;
+    width: 90px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   position: absolute;
+   left: 70%;
+   top: 4%;
+
+
+}
+
+.discount-text{
+    width: 50%;
+    text-align: center;
+}
+
+.btn{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #9376e0;
+ 
+}
+
+.discount-text h3{
+    font-size: 30px;
+   
+} 
+.discount-text p{
+font-size: 20px;
+
+}
+/* discount section end hear */
+
+/* review section start hear */
+.review-container{
+   
+   margin: 50px auto 0;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.single-review{
+   
+    flex-basis: 300px;
+    background-color:  #e893cf;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.single-review img{
+    width: 60px;
+    height: 60px;
+}
+
+.top-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* review section end hear */
+
+.footer{
+text-align: center;
+justify-content: center;
+background-color: #9376e0;
+margin-top: 40px;
+padding: 30px;
+}
+
+.footers{
+   
+    align-items: center;
+    justify-content: center;
+}

@@ -36,13 +36,25 @@
         grid-template-columns: 1fr;
     }
 
+    .discount-container{
+        flex-direction: column;
+    }
+
+    .discount-text{
+        width: 100%;
+    }
+
+    .discount-img{
+        width: 100%;
+    }
+
 }
 
 
 
 
-@media screen and (max-width:776px) {
+/* @media screen and (max-width:776px) {
     .grid-container{
         grid-template-columns: repeat(2,1fr);
     }
-}
+} */
